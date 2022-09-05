@@ -18,3 +18,14 @@ a:visited {
 	color: unset;
 	text-decoration: none;
 }
+
+.dsmeta-container {
+	width: 100%;
+	max-width: 900px;
+	/* Alinhar a <div> no centro*/
+	margin: 0 auto;
+}
+
+#sales {
+	padding: 40px 10px;
+}
