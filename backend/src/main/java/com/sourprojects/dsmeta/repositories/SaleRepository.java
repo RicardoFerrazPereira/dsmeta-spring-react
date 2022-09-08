@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 import com.sourprojects.dsmeta.entities.Sale;
 
 @Repository
-public interface SaleRepository extends JpaRepository<Sale, Long> {
+public interface SaleRepository extends JpaRepository<Sale, Integer> {
 	
 	// função que faz uma pesquisa no banco de dados recebendo
 	// as datas como argumentos
